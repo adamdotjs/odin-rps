@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+#game-root {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+#player-icons {
+  display: flex;
+  gap: 4rem;
+  font-size: 5rem;
+}
+
+#player-icon {
+  color: blue;
+}
+
+#computer-icon {
+  color: green;
+}
+
+#game-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1.8rem;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 8px;
+}
+
+button i {
+  margin-right: 0.75rem;
+}
